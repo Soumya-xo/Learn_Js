@@ -26,7 +26,7 @@
 // console.log(Math.floor(4.6));   //return 4  (floor value)
 
 
-console.log(Math.random());
+console.log(Math.random());   // it returns any value in between 0-1
 
 
 

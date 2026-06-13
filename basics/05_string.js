@@ -18,9 +18,9 @@ const anotherString = gameName.slice(-14,8) // use this when you want to use neg
 // console.log(anotherString);
 
 const newString2 = new String("  codm")
-console.log(newString2.trim());
+console.log(newString2.trim());       //trim all the space include
 
 console.log(gameName.replace('C','B'));
-console.log(gameName.includes("Duty"));
+console.log(gameName.includes("Duty"));   //checks the string is inside the main string or not
 
 
