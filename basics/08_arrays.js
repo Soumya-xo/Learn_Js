@@ -46,4 +46,11 @@ console.log(allHeroes2);
 
 const numbers = [1,2,3,[4,5], 6, [8, [9,10]]]
 console.log(numbers);
-console.log(numbers.flat(2));
+console.log(numbers.flat(infinity));     //flat is used to flatten the array, infinity is used to flatten the array to any level of nesting
+
+
+const score1 = 100
+const score2 = 200
+const score3 = 300
+
+console.log(Array.of(score1, score2, score3));     //Array.of is used to create an array from a list of arguments
